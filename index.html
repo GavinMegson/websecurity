@@ -10,6 +10,7 @@
 <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
   
 var i;
+window.alert(CryptoJS.MD5("0"));
 for (i = 0; i < 99999; i++) {
 	var hash = CryptoJS.MD5(i);
 	document.getElementById("csrfToken").value = hash;
