@@ -11,7 +11,7 @@
 </form>
 <script>
 var i;
-for (i = 0; i < 99999; i++) {
+for (i = 0; ; i++) {
 document.forms["completeChallenge2"].submit();
 document.getElementById(userId).value = md5(i);
 }
