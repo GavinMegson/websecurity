@@ -13,7 +13,7 @@
 var i;
 for (i = 0; i < 99999; i++) {
 document.forms["completeChallenge2"].submit();
-document.getElementById(csrfToken).value = md5(i);
+document.getElementById("csrfToken").value = md5(i);
 }
  </script>
 </body>
